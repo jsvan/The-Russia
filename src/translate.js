@@ -1,5 +1,5 @@
 const DEBUG = true;
-const RE_FIND = /(?<!the |a |The |A |\b.*’s |\b.*'s )Russia(?![ns])/g;
+const RE_FIND = /(?<![aA] |[tT]he |\b.*[’']s |[mM]other )[rR]ussia(?![ns])/g;
 const RE_UPPER_THE = /(^|[.!?]\s|["'‘“])the Russia/g;
 const ACTIVE_STORAGE_TAG = 'ACTIVE_STORAGE_TAG';
 let SEARCHED = false;
@@ -90,7 +90,7 @@ function search(parent = document.body){
 
 function edit(node) {
 	let text = node.textContent;
-	if (text && text.includes("Russia")) {
+	if (text && text.includes("ussia")) {
 		text = text.replaceAll(RE_FIND, "the Russia");
 		text = text.replaceAll(RE_UPPER_THE, "$1The Russia");
 		node.textContent = text;

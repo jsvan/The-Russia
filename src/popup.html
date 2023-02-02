@@ -1,35 +1,58 @@
 <!doctype html>
     <html>
     <title>"The Russia" Extension</title>
+    <meta charset="UTF-8">
     <head>
-
+<style>
+    a {color: #FFE600;}
+    a:visited {color:#FFE600;}
+    a:active {color:yellow;}
+</style>
     </head>
-<body style="width:100vw;max-width:100%;height:100vh;">
+<body style="width:1400px;max-width:100%;height:600px;background: url('../images/wood.jpg');">
+
+<table style="height: 100vh">
+    <tr style="height: 100vh;">
+        <td style="width: 1200px;  height: 89vh;">
+            <iframe src="https://standforukraine.com/" width="100%" height="100%" style="background: white"></iframe>
+            <br>
+        </td>
+        <td style="width: 210px;  height: 89vh; color:white; font-weight: normal">
+            <div  style="font-size: large;text-align:center;width: 200px;height:95%;padding: 10px; vertical-align: middle;  ">
+                <div>
+                    <br>
+                    <h3>
+                        <span style="font-size: x-large">✌</span>
+                        <div style=" font-style: italic;">"The Russia"(-nizer)</div>
+                    </h3>
+
+                </div>
+                <hr><br>
+                <p>Most importantly: please consider donating to Ukraine.</p>
+                <p style="font-size: medium;">
+                    <a target="_blank" href="https://standforukraine.com/"  >
+                        Click here to open donation page in new tab (recommended).</a>
+                </p>
+                <br>
+                <p style="text-align:center;font-size: medium;"><em>
+                    <input type="checkbox" style="accent-color:#5F82FF" value="activated" id="Activated" />
+                    <label for="Activated">Enable extension (you will need to refresh the page)</label>
+                </em>
+                </p>
+                <br><br>
+                <p style="font-size: small; color:white;">(And if you really want to...)</p>
+                <div style="text-align: center">
+                    <script type='text/javascript' src='../external/KoFi.js'></script>
+                    <script type='text/javascript' src="../external/runKoFi.js"></script>
+                </div>
+
+                    <br>
+            </div>
+        </td>
+    </tr>
+</table>
+
 <br>
-<div  style="font-size: large;text-align:center;">
-    <h3><em>"The Russia"-nizer</em></h3>
-<p>Most importantly, please consider donating to Ukraine.</p>
-    <p style="font-size: medium;">
-        <a target="_blank" href="https://standforukraine.com/" >
-            Click here to open donation page in new tab (recommended).</a>
-    </p>
-<p style="text-align:center;font-size: medium;"><em>
-<input type="checkbox" value="activated" id="Activated" /> <label for="Activated">Enable extension (you will need to refresh the page)</label>
-</em>
-</p>
-
-</div><br>
-
-
-<iframe src="https://standforukraine.com/" width="100%" height="65%"></iframe>
-<br>
-
-And if you really want to...
-<div style="text-align: center">
-    <script type='text/javascript' src='../external/KoFi.js'></script>
-    <script type='text/javascript' src="../external/runKoFi.js"></script>
-</div>
-
 
 <script src="popup.js">
 </script>
