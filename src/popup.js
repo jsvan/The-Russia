@@ -5,8 +5,6 @@ window.addEventListener('load', load_page, false);
 
 function load_page() {
     getActivated().then((activated_val)=> {
-        console.log("Got val, it's :")
-        console.log(activated_val)
         if (activated_val) {
             document.getElementById('Activated').toggleAttribute("checked", true);
         }
@@ -23,8 +21,6 @@ function activate() {
 
 function getActivated() {
     return chrome.storage.sync.get([ACTIVE_STORAGE_TAG]).then((response) => {
-        console.log("got response: ")
-        console.log(response.ACTIVE_STORAGE_TAG)
         return response.ACTIVE_STORAGE_TAG;
     });
 }

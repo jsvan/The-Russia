@@ -5,6 +5,5 @@
  */
 const ACTIVE_STORAGE_TAG = 'ACTIVE_STORAGE_TAG';
 chrome.runtime.onInstalled.addListener(function (rsn) {
-	console.log("Set active")
 	chrome.storage.sync.set({ACTIVE_STORAGE_TAG:true}, () => {});
 })
