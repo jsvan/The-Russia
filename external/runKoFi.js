@@ -1,0 +1,1 @@
+kofiwidget2.init('Buy me a pivo', '#4c8bf5', 'Q5Q0H3JMZ');kofiwidget2.draw();
