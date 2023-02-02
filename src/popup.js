@@ -4,11 +4,13 @@ window.addEventListener('load', load_page, false);
 
 
 function load_page() {
+
     getActivated().then((activated_val)=> {
         if (activated_val) {
             document.getElementById('Activated').toggleAttribute("checked", true);
         }
     });
+
 }
 
 function activate() {

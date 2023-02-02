@@ -1,5 +1,5 @@
 const DEBUG = true;
-const RE_FIND = /(?<![aA] |[tT]he |\b.*[’']s |[mM]other )[rR]ussia(?![ns])/g;
+const RE_FIND = /(?<![aA] |[tT]he |\b.*[’']s |[mM]other |[-])[rR]ussia(?![ns])/g;
 const RE_UPPER_THE = /(^|[.!?]\s|["'‘“])the Russia/g;
 const ACTIVE_STORAGE_TAG = 'ACTIVE_STORAGE_TAG';
 let SEARCHED = false;
@@ -18,7 +18,8 @@ function run_if_active() {
 			setTimeout(() => {
 				if (!SEARCHED) {
 					console.log('HARD SEARCHING...')
-					document.body.appendChild(document.createElement("span"))
+					const guy = document.createElement("span");
+					document.body.appendChild(guy);
 					SEARCHED = true;
 				}
 			}, 1000)
@@ -40,9 +41,11 @@ function initMO(root = document.body) {
 			if (mutation === null){
 				return;
 			}
-			SEARCHED = true;
 			let node = mutation.target;
 			console.log("SEARCHING:")
+			if (node.textContent.length > 75){
+				SEARCHED = true;
+			}
 
 			search(node);
 		});
