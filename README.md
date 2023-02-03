@@ -12,3 +12,5 @@ The Russia(-nizer) is an extension which finds and replaces mentions of Russia w
 >"That's why I ask the Lord up in Heaven above  
 >Just what is this thing, called 'the'?"  
 >- Frank Sinatra
+
+The firefox version can be found at https://github.com/jsvan/The-Russia-Firefox-
