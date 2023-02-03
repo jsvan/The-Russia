@@ -1,8 +1,14 @@
 # The-Russia
-The Russia(-nizer) is an extension which finds and replaces mentions of Russia with "The Russia".
+The Russia(-nizer) is an extension which finds and replaces mentions of Russia with "The Russia". And a convenient page to donate to Ukraine in the Popup. 
 
 
-The joke is that it's a play on how people used to refer to "The Ukraine", which can be interpreted as a demeaning title for a not real country. Now that things are going so poorly for Russia, especially morally, perhaps they deserve our condescention instead. Included is a webpage to make donating to Ukraine easy, for when you're feeling inspired -- it's right there. :) 
+//The Midwest, the north, the great beyond, the Shire. The Ukraine. ...The Russia?
+ 
+* Explore how language has the power to shape perception. 
+* Meditate on framing. 
+* Spelunk the depths to which a single word can twist the mind. 
+* And feel happy.
 
-
-Now that there is a polarizing war which in a small part has to do with the "status" of countries, my extension subverts cultural expectations by applying the "the" to Russia instead. I hope people think twice about the power of small words on how they interpret the web through this app. 
+"That's why I ask the Lord up in Heaven above
+Just what is this thing, called 'the'?"
+- Frank Sinatra//
