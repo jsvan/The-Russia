@@ -1,4 +1,7 @@
 # The-Russia
+
+The chrome wing of the app.
+
 The Russia(-nizer) is an extension which finds and replaces mentions of Russia with "the Russia". And provides a convenient page to donate to Ukraine in the upper icon for when youre feeling inspired. 
 
 
