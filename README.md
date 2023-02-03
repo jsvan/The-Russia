@@ -1,5 +1,5 @@
 # The-Russia
-The Russia(-nizer) is an extension which finds and replaces mentions of Russia with "The Russia". And a convenient page to donate to Ukraine in the Popup. 
+The Russia(-nizer) is an extension which finds and replaces mentions of Russia with "the Russia". And a convenient page to donate to Ukraine in the Popup. 
 
 
 >The Midwest, the north, the great beyond, the Shire. The Ukraine. ...The Russia?
